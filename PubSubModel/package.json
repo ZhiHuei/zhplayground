@@ -1,0 +1,15 @@
+{
+  "name": "pubsubmodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:transpile": "tsc -p ./tsconfig.json",
+    "start": "npm run build:transpile && node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
